@@ -1,0 +1,13 @@
+*/*/
+*.pkg.*
+*.src.*
+*.tar.*
+*.sign
+*.tgz
+*.run
+*.zip
+*.xz
+*.log
+*~
+*.abi
+*.sum

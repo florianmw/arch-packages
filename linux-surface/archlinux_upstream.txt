@@ -1,0 +1,17 @@
+# call with curl -K <file> to get files from original Arch Linux 'linux' package
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/0001-add-sysctl-to-disallow-unprivileged-CLONE_NEWUSER-by.patch?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/0002-drm-i915-edp-Only-use-the-alternate-fixed-mode-if-it.patch?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/60-linux.hook?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/90-linux.hook?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/PKGBUILD?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/config?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/linux.install?h=packages/linux"
+-OJ
+url="https://git.archlinux.org/svntogit/packages.git/plain/trunk/linux.preset?h=packages/linux"
