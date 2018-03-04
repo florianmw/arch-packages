@@ -64,9 +64,7 @@ prepare() {
     patch -Np1 -i $i
   done
 
-  # CONFIG_INTEL_IPTS=m for Surface Touchscreen
   cat ../config - >.config <<END
-CONFIG_INTEL_IPTS=m
 CONFIG_LOCALVERSION="${_kernelname}"
 CONFIG_LOCALVERSION_AUTO=n
 END
