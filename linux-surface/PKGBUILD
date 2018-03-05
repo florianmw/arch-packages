@@ -7,7 +7,7 @@
 pkgbase=linux-surface        # Build kernel with a different name
 _srcname=linux-4.15
 pkgver=4.15.7
-pkgrel=1
+pkgrel=2
 arch=('x86_64')
 url="https://www.kernel.org/"
 license=('GPL2')
