@@ -61,7 +61,7 @@ prepare() {
   patch -Np1 -i ../0002-Revert-drm-i915-edp-Allow-alternate-fixed-mode-for-e.patch
 
   # Apply all surface-jakeday patches
-  for i in ../linux-surface/patches-${pkgver%.*}/*.patch
+  for i in ../linux-surface/patches/${pkgver%.*}/*.patch
   do
     patch -Np1 -i $i
   done
